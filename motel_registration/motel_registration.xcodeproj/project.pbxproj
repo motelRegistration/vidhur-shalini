@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4665DE552400F39B0038C2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE542400F39B0038C2C5 /* AppDelegate.swift */; };
-		4665DE572400F39B0038C2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE562400F39B0038C2C5 /* SceneDelegate.swift */; };
-		4665DE592400F39B0038C2C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE582400F39B0038C2C5 /* ContentView.swift */; };
-		4665DE5B2400F39E0038C2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE5A2400F39E0038C2C5 /* Assets.xcassets */; };
-		4665DE5E2400F39E0038C2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE5D2400F39E0038C2C5 /* Preview Assets.xcassets */; };
-		4665DE612400F39E0038C2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE5F2400F39E0038C2C5 /* LaunchScreen.storyboard */; };
-		4665DE6C2400F39E0038C2C5 /* motel_registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE6B2400F39E0038C2C5 /* motel_registrationTests.swift */; };
-		4665DE772400F39E0038C2C5 /* motel_registrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE762400F39E0038C2C5 /* motel_registrationUITests.swift */; };
+		4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE902400F7D90038C2C5 /* AppDelegate.swift */; };
+		4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE922400F7D90038C2C5 /* SceneDelegate.swift */; };
+		4665DE952400F7D90038C2C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE942400F7D90038C2C5 /* ViewController.swift */; };
+		4665DE982400F7D90038C2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE962400F7D90038C2C5 /* Main.storyboard */; };
+		4665DE9A2400F7DB0038C2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE992400F7DB0038C2C5 /* Assets.xcassets */; };
+		4665DE9D2400F7DB0038C2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE9B2400F7DB0038C2C5 /* LaunchScreen.storyboard */; };
+		4665DEA82400F7DB0038C2C5 /* motel_registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DEA72400F7DB0038C2C5 /* motel_registrationTests.swift */; };
+		4665DEB32400F7DB0038C2C5 /* motel_registrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DEB22400F7DB0038C2C5 /* motel_registrationUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4665DE682400F39E0038C2C5 /* PBXContainerItemProxy */ = {
+		4665DEA42400F7DB0038C2C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4665DE492400F39B0038C2C5 /* Project object */;
+			containerPortal = 4665DE852400F7D90038C2C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4665DE502400F39B0038C2C5;
+			remoteGlobalIDString = 4665DE8C2400F7D90038C2C5;
 			remoteInfo = motel_registration;
 		};
-		4665DE732400F39E0038C2C5 /* PBXContainerItemProxy */ = {
+		4665DEAF2400F7DB0038C2C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4665DE492400F39B0038C2C5 /* Project object */;
+			containerPortal = 4665DE852400F7D90038C2C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4665DE502400F39B0038C2C5;
+			remoteGlobalIDString = 4665DE8C2400F7D90038C2C5;
 			remoteInfo = motel_registration;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4665DE512400F39B0038C2C5 /* motel_registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motel_registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4665DE542400F39B0038C2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4665DE562400F39B0038C2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4665DE582400F39B0038C2C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4665DE5A2400F39E0038C2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4665DE5D2400F39E0038C2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4665DE602400F39E0038C2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4665DE622400F39E0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4665DE672400F39E0038C2C5 /* motel_registrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motel_registrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4665DE6B2400F39E0038C2C5 /* motel_registrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motel_registrationTests.swift; sourceTree = "<group>"; };
-		4665DE6D2400F39E0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4665DE722400F39E0038C2C5 /* motel_registrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motel_registrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4665DE762400F39E0038C2C5 /* motel_registrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motel_registrationUITests.swift; sourceTree = "<group>"; };
-		4665DE782400F39E0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4665DE8D2400F7D90038C2C5 /* motel_registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motel_registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4665DE902400F7D90038C2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4665DE922400F7D90038C2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4665DE942400F7D90038C2C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4665DE972400F7D90038C2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4665DE992400F7DB0038C2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4665DE9C2400F7DB0038C2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4665DE9E2400F7DB0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4665DEA32400F7DB0038C2C5 /* motel_registrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motel_registrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4665DEA72400F7DB0038C2C5 /* motel_registrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motel_registrationTests.swift; sourceTree = "<group>"; };
+		4665DEA92400F7DB0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4665DEAE2400F7DB0038C2C5 /* motel_registrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motel_registrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4665DEB22400F7DB0038C2C5 /* motel_registrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motel_registrationUITests.swift; sourceTree = "<group>"; };
+		4665DEB42400F7DB0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4665DE4E2400F39B0038C2C5 /* Frameworks */ = {
+		4665DE8A2400F7D90038C2C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE642400F39E0038C2C5 /* Frameworks */ = {
+		4665DEA02400F7DB0038C2C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE6F2400F39E0038C2C5 /* Frameworks */ = {
+		4665DEAB2400F7DB0038C2C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4665DE482400F39B0038C2C5 = {
+		4665DE842400F7D90038C2C5 = {
 			isa = PBXGroup;
 			children = (
-				4665DE532400F39B0038C2C5 /* motel_registration */,
-				4665DE6A2400F39E0038C2C5 /* motel_registrationTests */,
-				4665DE752400F39E0038C2C5 /* motel_registrationUITests */,
-				4665DE522400F39B0038C2C5 /* Products */,
+				4665DE8F2400F7D90038C2C5 /* motel_registration */,
+				4665DEA62400F7DB0038C2C5 /* motel_registrationTests */,
+				4665DEB12400F7DB0038C2C5 /* motel_registrationUITests */,
+				4665DE8E2400F7D90038C2C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4665DE522400F39B0038C2C5 /* Products */ = {
+		4665DE8E2400F7D90038C2C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4665DE512400F39B0038C2C5 /* motel_registration.app */,
-				4665DE672400F39E0038C2C5 /* motel_registrationTests.xctest */,
-				4665DE722400F39E0038C2C5 /* motel_registrationUITests.xctest */,
+				4665DE8D2400F7D90038C2C5 /* motel_registration.app */,
+				4665DEA32400F7DB0038C2C5 /* motel_registrationTests.xctest */,
+				4665DEAE2400F7DB0038C2C5 /* motel_registrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4665DE532400F39B0038C2C5 /* motel_registration */ = {
+		4665DE8F2400F7D90038C2C5 /* motel_registration */ = {
 			isa = PBXGroup;
 			children = (
-				4665DE542400F39B0038C2C5 /* AppDelegate.swift */,
-				4665DE562400F39B0038C2C5 /* SceneDelegate.swift */,
-				4665DE582400F39B0038C2C5 /* ContentView.swift */,
-				4665DE5A2400F39E0038C2C5 /* Assets.xcassets */,
-				4665DE5F2400F39E0038C2C5 /* LaunchScreen.storyboard */,
-				4665DE622400F39E0038C2C5 /* Info.plist */,
-				4665DE5C2400F39E0038C2C5 /* Preview Content */,
+				4665DE902400F7D90038C2C5 /* AppDelegate.swift */,
+				4665DE922400F7D90038C2C5 /* SceneDelegate.swift */,
+				4665DE942400F7D90038C2C5 /* ViewController.swift */,
+				4665DE962400F7D90038C2C5 /* Main.storyboard */,
+				4665DE992400F7DB0038C2C5 /* Assets.xcassets */,
+				4665DE9B2400F7DB0038C2C5 /* LaunchScreen.storyboard */,
+				4665DE9E2400F7DB0038C2C5 /* Info.plist */,
 			);
 			path = motel_registration;
 			sourceTree = "<group>";
 		};
-		4665DE5C2400F39E0038C2C5 /* Preview Content */ = {
+		4665DEA62400F7DB0038C2C5 /* motel_registrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				4665DE5D2400F39E0038C2C5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4665DE6A2400F39E0038C2C5 /* motel_registrationTests */ = {
-			isa = PBXGroup;
-			children = (
-				4665DE6B2400F39E0038C2C5 /* motel_registrationTests.swift */,
-				4665DE6D2400F39E0038C2C5 /* Info.plist */,
+				4665DEA72400F7DB0038C2C5 /* motel_registrationTests.swift */,
+				4665DEA92400F7DB0038C2C5 /* Info.plist */,
 			);
 			path = motel_registrationTests;
 			sourceTree = "<group>";
 		};
-		4665DE752400F39E0038C2C5 /* motel_registrationUITests */ = {
+		4665DEB12400F7DB0038C2C5 /* motel_registrationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4665DE762400F39E0038C2C5 /* motel_registrationUITests.swift */,
-				4665DE782400F39E0038C2C5 /* Info.plist */,
+				4665DEB22400F7DB0038C2C5 /* motel_registrationUITests.swift */,
+				4665DEB42400F7DB0038C2C5 /* Info.plist */,
 			);
 			path = motel_registrationUITests;
 			sourceTree = "<group>";
@@ -139,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4665DE502400F39B0038C2C5 /* motel_registration */ = {
+		4665DE8C2400F7D90038C2C5 /* motel_registration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4665DE7B2400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registration" */;
+			buildConfigurationList = 4665DEB72400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registration" */;
 			buildPhases = (
-				4665DE4D2400F39B0038C2C5 /* Sources */,
-				4665DE4E2400F39B0038C2C5 /* Frameworks */,
-				4665DE4F2400F39B0038C2C5 /* Resources */,
+				4665DE892400F7D90038C2C5 /* Sources */,
+				4665DE8A2400F7D90038C2C5 /* Frameworks */,
+				4665DE8B2400F7D90038C2C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +145,69 @@
 			);
 			name = motel_registration;
 			productName = motel_registration;
-			productReference = 4665DE512400F39B0038C2C5 /* motel_registration.app */;
+			productReference = 4665DE8D2400F7D90038C2C5 /* motel_registration.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4665DE662400F39E0038C2C5 /* motel_registrationTests */ = {
+		4665DEA22400F7DB0038C2C5 /* motel_registrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4665DE7E2400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationTests" */;
+			buildConfigurationList = 4665DEBA2400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationTests" */;
 			buildPhases = (
-				4665DE632400F39E0038C2C5 /* Sources */,
-				4665DE642400F39E0038C2C5 /* Frameworks */,
-				4665DE652400F39E0038C2C5 /* Resources */,
+				4665DE9F2400F7DB0038C2C5 /* Sources */,
+				4665DEA02400F7DB0038C2C5 /* Frameworks */,
+				4665DEA12400F7DB0038C2C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4665DE692400F39E0038C2C5 /* PBXTargetDependency */,
+				4665DEA52400F7DB0038C2C5 /* PBXTargetDependency */,
 			);
 			name = motel_registrationTests;
 			productName = motel_registrationTests;
-			productReference = 4665DE672400F39E0038C2C5 /* motel_registrationTests.xctest */;
+			productReference = 4665DEA32400F7DB0038C2C5 /* motel_registrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4665DE712400F39E0038C2C5 /* motel_registrationUITests */ = {
+		4665DEAD2400F7DB0038C2C5 /* motel_registrationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4665DE812400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationUITests" */;
+			buildConfigurationList = 4665DEBD2400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationUITests" */;
 			buildPhases = (
-				4665DE6E2400F39E0038C2C5 /* Sources */,
-				4665DE6F2400F39E0038C2C5 /* Frameworks */,
-				4665DE702400F39E0038C2C5 /* Resources */,
+				4665DEAA2400F7DB0038C2C5 /* Sources */,
+				4665DEAB2400F7DB0038C2C5 /* Frameworks */,
+				4665DEAC2400F7DB0038C2C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4665DE742400F39E0038C2C5 /* PBXTargetDependency */,
+				4665DEB02400F7DB0038C2C5 /* PBXTargetDependency */,
 			);
 			name = motel_registrationUITests;
 			productName = motel_registrationUITests;
-			productReference = 4665DE722400F39E0038C2C5 /* motel_registrationUITests.xctest */;
+			productReference = 4665DEAE2400F7DB0038C2C5 /* motel_registrationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4665DE492400F39B0038C2C5 /* Project object */ = {
+		4665DE852400F7D90038C2C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Shalini Garikapaty";
 				TargetAttributes = {
-					4665DE502400F39B0038C2C5 = {
+					4665DE8C2400F7D90038C2C5 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					4665DE662400F39E0038C2C5 = {
+					4665DEA22400F7DB0038C2C5 = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 4665DE502400F39B0038C2C5;
+						TestTargetID = 4665DE8C2400F7D90038C2C5;
 					};
-					4665DE712400F39E0038C2C5 = {
+					4665DEAD2400F7DB0038C2C5 = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 4665DE502400F39B0038C2C5;
+						TestTargetID = 4665DE8C2400F7D90038C2C5;
 					};
 				};
 			};
-			buildConfigurationList = 4665DE4C2400F39B0038C2C5 /* Build configuration list for PBXProject "motel_registration" */;
+			buildConfigurationList = 4665DE882400F7D90038C2C5 /* Build configuration list for PBXProject "motel_registration" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 4665DE482400F39B0038C2C5;
-			productRefGroup = 4665DE522400F39B0038C2C5 /* Products */;
+			mainGroup = 4665DE842400F7D90038C2C5;
+			productRefGroup = 4665DE8E2400F7D90038C2C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4665DE502400F39B0038C2C5 /* motel_registration */,
-				4665DE662400F39E0038C2C5 /* motel_registrationTests */,
-				4665DE712400F39E0038C2C5 /* motel_registrationUITests */,
+				4665DE8C2400F7D90038C2C5 /* motel_registration */,
+				4665DEA22400F7DB0038C2C5 /* motel_registrationTests */,
+				4665DEAD2400F7DB0038C2C5 /* motel_registrationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4665DE4F2400F39B0038C2C5 /* Resources */ = {
+		4665DE8B2400F7D90038C2C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4665DE612400F39E0038C2C5 /* LaunchScreen.storyboard in Resources */,
-				4665DE5E2400F39E0038C2C5 /* Preview Assets.xcassets in Resources */,
-				4665DE5B2400F39E0038C2C5 /* Assets.xcassets in Resources */,
+				4665DE9D2400F7DB0038C2C5 /* LaunchScreen.storyboard in Resources */,
+				4665DE9A2400F7DB0038C2C5 /* Assets.xcassets in Resources */,
+				4665DE982400F7D90038C2C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE652400F39E0038C2C5 /* Resources */ = {
+		4665DEA12400F7DB0038C2C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE702400F39E0038C2C5 /* Resources */ = {
+		4665DEAC2400F7DB0038C2C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4665DE4D2400F39B0038C2C5 /* Sources */ = {
+		4665DE892400F7D90038C2C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4665DE552400F39B0038C2C5 /* AppDelegate.swift in Sources */,
-				4665DE572400F39B0038C2C5 /* SceneDelegate.swift in Sources */,
-				4665DE592400F39B0038C2C5 /* ContentView.swift in Sources */,
+				4665DE952400F7D90038C2C5 /* ViewController.swift in Sources */,
+				4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */,
+				4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE632400F39E0038C2C5 /* Sources */ = {
+		4665DE9F2400F7DB0038C2C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4665DE6C2400F39E0038C2C5 /* motel_registrationTests.swift in Sources */,
+				4665DEA82400F7DB0038C2C5 /* motel_registrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665DE6E2400F39E0038C2C5 /* Sources */ = {
+		4665DEAA2400F7DB0038C2C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4665DE772400F39E0038C2C5 /* motel_registrationUITests.swift in Sources */,
+				4665DEB32400F7DB0038C2C5 /* motel_registrationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4665DE692400F39E0038C2C5 /* PBXTargetDependency */ = {
+		4665DEA52400F7DB0038C2C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4665DE502400F39B0038C2C5 /* motel_registration */;
-			targetProxy = 4665DE682400F39E0038C2C5 /* PBXContainerItemProxy */;
+			target = 4665DE8C2400F7D90038C2C5 /* motel_registration */;
+			targetProxy = 4665DEA42400F7DB0038C2C5 /* PBXContainerItemProxy */;
 		};
-		4665DE742400F39E0038C2C5 /* PBXTargetDependency */ = {
+		4665DEB02400F7DB0038C2C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4665DE502400F39B0038C2C5 /* motel_registration */;
-			targetProxy = 4665DE732400F39E0038C2C5 /* PBXContainerItemProxy */;
+			target = 4665DE8C2400F7D90038C2C5 /* motel_registration */;
+			targetProxy = 4665DEAF2400F7DB0038C2C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4665DE5F2400F39E0038C2C5 /* LaunchScreen.storyboard */ = {
+		4665DE962400F7D90038C2C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4665DE602400F39E0038C2C5 /* Base */,
+				4665DE972400F7D90038C2C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4665DE9B2400F7DB0038C2C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4665DE9C2400F7DB0038C2C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4665DE792400F39E0038C2C5 /* Debug */ = {
+		4665DEB52400F7DB0038C2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		4665DE7A2400F39E0038C2C5 /* Release */ = {
+		4665DEB62400F7DB0038C2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,13 +430,11 @@
 			};
 			name = Release;
 		};
-		4665DE7C2400F39E0038C2C5 /* Debug */ = {
+		4665DEB82400F7DB0038C2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"motel_registration/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = motel_registration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,13 +447,11 @@
 			};
 			name = Debug;
 		};
-		4665DE7D2400F39E0038C2C5 /* Release */ = {
+		4665DEB92400F7DB0038C2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"motel_registration/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = motel_registration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +464,7 @@
 			};
 			name = Release;
 		};
-		4665DE7F2400F39E0038C2C5 /* Debug */ = {
+		4665DEBB2400F7DB0038C2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		4665DE802400F39E0038C2C5 /* Release */ = {
+		4665DEBC2400F7DB0038C2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +506,7 @@
 			};
 			name = Release;
 		};
-		4665DE822400F39E0038C2C5 /* Debug */ = {
+		4665DEBE2400F7DB0038C2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		4665DE832400F39E0038C2C5 /* Release */ = {
+		4665DEBF2400F7DB0038C2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +547,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4665DE4C2400F39B0038C2C5 /* Build configuration list for PBXProject "motel_registration" */ = {
+		4665DE882400F7D90038C2C5 /* Build configuration list for PBXProject "motel_registration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4665DE792400F39E0038C2C5 /* Debug */,
-				4665DE7A2400F39E0038C2C5 /* Release */,
+				4665DEB52400F7DB0038C2C5 /* Debug */,
+				4665DEB62400F7DB0038C2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4665DE7B2400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registration" */ = {
+		4665DEB72400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4665DE7C2400F39E0038C2C5 /* Debug */,
-				4665DE7D2400F39E0038C2C5 /* Release */,
+				4665DEB82400F7DB0038C2C5 /* Debug */,
+				4665DEB92400F7DB0038C2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4665DE7E2400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationTests" */ = {
+		4665DEBA2400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4665DE7F2400F39E0038C2C5 /* Debug */,
-				4665DE802400F39E0038C2C5 /* Release */,
+				4665DEBB2400F7DB0038C2C5 /* Debug */,
+				4665DEBC2400F7DB0038C2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4665DE812400F39E0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationUITests" */ = {
+		4665DEBD2400F7DB0038C2C5 /* Build configuration list for PBXNativeTarget "motel_registrationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4665DE822400F39E0038C2C5 /* Debug */,
-				4665DE832400F39E0038C2C5 /* Release */,
+				4665DEBE2400F7DB0038C2C5 /* Debug */,
+				4665DEBF2400F7DB0038C2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4665DE492400F39B0038C2C5 /* Project object */;
+	rootObject = 4665DE852400F7D90038C2C5 /* Project object */;
 }
