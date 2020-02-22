@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		463452042400FFA200DA4CFC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463452032400FFA200DA4CFC /* LoginVC.swift */; };
-		463452062400FFBB00DA4CFC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463452052400FFBB00DA4CFC /* SignUpVC.swift */; };
 		4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE902400F7D90038C2C5 /* AppDelegate.swift */; };
 		4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE922400F7D90038C2C5 /* SceneDelegate.swift */; };
 		4665DE982400F7D90038C2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE962400F7D90038C2C5 /* Main.storyboard */; };
@@ -16,6 +14,8 @@
 		4665DE9D2400F7DB0038C2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE9B2400F7DB0038C2C5 /* LaunchScreen.storyboard */; };
 		4665DEA82400F7DB0038C2C5 /* motel_registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DEA72400F7DB0038C2C5 /* motel_registrationTests.swift */; };
 		4665DEB32400F7DB0038C2C5 /* motel_registrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DEB22400F7DB0038C2C5 /* motel_registrationUITests.swift */; };
+		EBD021E8240100BE00E95F15 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD021E7240100BE00E95F15 /* LoginVC.swift */; };
+		EBD021EA240100CB00E95F15 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD021E9240100CB00E95F15 /* SignupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		463452032400FFA200DA4CFC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../../../../Desktop/LoginVC.swift; sourceTree = "<group>"; };
-		463452052400FFBB00DA4CFC /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = ../../../../Desktop/SignUpVC.swift; sourceTree = "<group>"; };
 		4665DE8D2400F7D90038C2C5 /* motel_registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motel_registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4665DE902400F7D90038C2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4665DE922400F7D90038C2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		4665DEAE2400F7DB0038C2C5 /* motel_registrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motel_registrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4665DEB22400F7DB0038C2C5 /* motel_registrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motel_registrationUITests.swift; sourceTree = "<group>"; };
 		4665DEB42400F7DB0038C2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD021E7240100BE00E95F15 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EBD021E9240100CB00E95F15 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 		EBD021E62400FDFD00E95F15 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				463452032400FFA200DA4CFC /* LoginVC.swift */,
-				463452052400FFBB00DA4CFC /* SignUpVC.swift */,
+				EBD021E7240100BE00E95F15 /* LoginVC.swift */,
+				EBD021E9240100CB00E95F15 /* SignupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,10 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463452062400FFBB00DA4CFC /* SignUpVC.swift in Sources */,
+				EBD021EA240100CB00E95F15 /* SignupVC.swift in Sources */,
 				4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */,
 				4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */,
-				463452042400FFA200DA4CFC /* LoginVC.swift in Sources */,
+				EBD021E8240100BE00E95F15 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
