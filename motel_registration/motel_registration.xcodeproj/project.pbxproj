@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		463452002400FEC600DA4CFC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463451FF2400FEC600DA4CFC /* SignUpVC.swift */; };
-		463452022400FED600DA4CFC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463452012400FED600DA4CFC /* LoginVC.swift */; };
+		463452042400FFA200DA4CFC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463452032400FFA200DA4CFC /* LoginVC.swift */; };
+		463452062400FFBB00DA4CFC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463452052400FFBB00DA4CFC /* SignUpVC.swift */; };
 		4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE902400F7D90038C2C5 /* AppDelegate.swift */; };
 		4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665DE922400F7D90038C2C5 /* SceneDelegate.swift */; };
 		4665DE982400F7D90038C2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665DE962400F7D90038C2C5 /* Main.storyboard */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		463451FF2400FEC600DA4CFC /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = ../../../../Desktop/SignUpVC.swift; sourceTree = "<group>"; };
-		463452012400FED600DA4CFC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../../../../Desktop/LoginVC.swift; sourceTree = "<group>"; };
+		463452032400FFA200DA4CFC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../../../../Desktop/LoginVC.swift; sourceTree = "<group>"; };
+		463452052400FFBB00DA4CFC /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = ../../../../Desktop/SignUpVC.swift; sourceTree = "<group>"; };
 		4665DE8D2400F7D90038C2C5 /* motel_registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motel_registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4665DE902400F7D90038C2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4665DE922400F7D90038C2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 		EBD021E62400FDFD00E95F15 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				463451FF2400FEC600DA4CFC /* SignUpVC.swift */,
-				463452012400FED600DA4CFC /* LoginVC.swift */,
+				463452032400FFA200DA4CFC /* LoginVC.swift */,
+				463452052400FFBB00DA4CFC /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,10 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463452062400FFBB00DA4CFC /* SignUpVC.swift in Sources */,
 				4665DE912400F7D90038C2C5 /* AppDelegate.swift in Sources */,
-				463452002400FEC600DA4CFC /* SignUpVC.swift in Sources */,
-				463452022400FED600DA4CFC /* LoginVC.swift in Sources */,
 				4665DE932400F7D90038C2C5 /* SceneDelegate.swift in Sources */,
+				463452042400FFA200DA4CFC /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
